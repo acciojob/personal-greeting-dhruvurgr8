@@ -14,7 +14,7 @@ class Greet extends Component {
     return (
       <>
         <p>Enter your name:</p>
-        <input onChange={handleChange} type="text" />
+        <input onChange={handleChange} type="text" /><br/>
         {this.state.value ? <p>Hello {this.state.value}!</p> : null}
       </>
     );
